@@ -1,0 +1,22 @@
+#carousel img{
+	float: left;
+}
+#prev,#next{
+	background:url(../images/slidebg.png);
+	background-repeat:repeat;
+	height:640px;
+	width:0px;
+	top:110px;
+	position:absolute;
+	cursor: pointer;
+}
+#prev:hover,#next:hover{
+	background:url(../images/slidebghover.png);
+	background-repeat:repeat;
+}
+#prev{
+	left: 0;
+}
+#next{
+	right: 0;
+}

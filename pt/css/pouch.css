@@ -1,0 +1,257 @@
+.section{
+    overflow: hidden;
+}
+.section div{
+    position: absolute;
+}
+.section > div {
+    overflow: hidden;
+}
+.section > div > div{
+    top: 50%;
+    left: 50%;
+}
+.sectionShare{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    background-color:#005FA4;
+    opacity: 1;
+}
+.sectionShare div {
+    position: absolute;
+}
+.sectionShare .btnClose{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    width: 3%;
+}
+#sectionShare .logo{ left: 2%; top: 3%; width: 10%;}
+#sectionShare .title { width: 40%; left: 50%; top: 30%; margin-left: -20%; }
+#sectionShare .face { width: 30%; left: 50%; top: 50%; margin-left: -15%; }
+#sectionShare .twit { width: 30%; left: 50%; top: 54%; margin-left: -15%; }
+
+.pc {display: block;}
+.mobile {display: none;}
+.icons{
+    z-index: 999;
+    position: absolute;
+    right: 1.5%;
+    top:2%;
+    width: 2%;
+}
+.icons ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.icons li{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+.logo{
+    top: 2% !important;
+    left: 1% !important;
+    width: 8%;
+}
+
+#section1 .labtop{
+    width: 60%;
+    margin-left: -30%;
+    margin-top: -23%;
+    z-index: 1;
+}
+#section1 .monitor{
+    width: 44%;
+    margin-left: -22%;
+    margin-top: -18%;
+    z-index: 2;
+}
+#section1 #smile{
+    width: 23%;
+    margin-top: -10%;
+    margin-left: -55%;
+}
+#section1 #flamingo{
+    width: 19%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+#section1 #icecream{
+    width: 18%;
+    margin-top: -29%;
+    margin-left: 20%;
+}
+
+#section2 .title{
+    width: 50%;
+    margin-left: -25%;
+    margin-top: -19%;
+}
+#section2 #sizes{
+    width: 14%;
+    margin-left: -7%;
+    margin-top: -13%;
+}
+#section2 .pouches{
+    width: 40%;
+    display: none;
+}
+#section2 #smile_pouch{
+    margin-left: 10%;
+    margin-top: -60%;
+}
+#section2 #icecream_pouch{
+    margin-left: -20%;
+    margin-top: -60%;
+    z-index: 1;
+}
+#section2 #flamingo_pouch{
+    margin-left: -48%;
+    margin-top: -60%;
+}
+#section2 #price{
+    width: 25%;
+    margin-left: 20%;
+    margin-top: 16.5%;
+}
+#section2 #description {
+    width: 17%;
+    margin-left: -46%;
+    margin-top: 15%;
+}
+
+.photo{
+    width: 52%;
+    top: 0 !important;
+    left: 48% !important;
+}
+#photo_flamingo, #photo_smile{
+    top: -5% !important;
+}
+
+.pouch{
+    width: 40%;
+    margin-left: -45%;
+    margin-top: -14%;
+}
+.model{
+    width: 20%;
+    margin-left: -29%;
+    margin-top: 14%;
+}
+.insta{
+    width: 18%;
+    margin-left: 0;
+    top: 95% !important;
+}
+.insta_c{
+    width: 18%;
+    margin-left: 0;
+    top: 95% !important;
+}
+@media(max-width: 512px){
+    .pc {display: none;}
+    .mobile {display: block;}
+    #sectionShare .logo{ left: 2%; top: 3%; width: 20%;}
+    #sectionShare .title { width: 80%; left: 50%; top: 28%; margin-left: -40%; }
+    #sectionShare .face { width: 70%; left: 50%; top: 40%; margin-left: -35%; }
+    #sectionShare .twit { width: 60%; left: 50%; top: 52%; margin-left: -30%; }
+
+    .logo{
+        width: 28%;
+        top: 2% !important;
+        left: 3% !important;
+        z-index: 2;
+    }
+    .icons{
+        right: 4%;
+        width: 12%;
+    }
+
+    #section1 .labtop{
+        width: 92%;
+        margin-left: -46%;
+        margin-top: -35%;
+    }
+    #section1 .monitor{
+        width: 66%;
+        margin-left: -33%;
+        margin-top: -27%;
+    }
+    #section1 #smile{
+        width: 57%;
+        margin-left: -70%;
+        margin-top: -52%;
+    }
+    #section1 #flamingo{
+        width: 52%;
+        margin-left: 11%;
+        margin-top: 43%;
+    }
+    #section1 #icecream{
+        width: 50%;
+        margin-left: -12%;
+        margin-top: -115%;
+    }
+    #section1 #flamingo_m{
+        width: 50%;
+        margin-left: 35%;
+        margin-top: -80%;
+    }
+    #section1 #icecream_m{
+        width: 55%;
+        margin-left: -48%;
+        margin-top: 48%;
+    }
+    #section1 #insta_first{
+        width: 56%;
+        margin-left: -28%;
+        margin-top: 34%;s
+    }
+
+    #section2 .pouch_m{
+        width: 65%;
+        margin-left: -32.5%;
+        margin-top: -35%;
+    }
+    #section2 .title{
+        width: 56%;
+        margin-left: -28%;
+        margin-top: -55%;
+    }
+    #section2 #sizes{
+        width: 24%;
+        margin-left: -12%;
+        margin-top: -39%;
+    }
+    #section2 #description{
+        width: 60%;
+        margin-left: -46%;
+        margin-top: 45%;
+    }
+    #section2 #price_m{
+        width: 43%;
+        margin-top: 49.5%;
+    }
+    .photo{
+        width: 100%;
+        left: 0 !important;
+        height: 60%;
+        overflow: hidden;
+    }
+    .pouch{
+        width: 80%;
+        margin-left: -38%;
+        margin-top: 15%;
+    }
+    .model{
+        width: 56%;
+        margin-left: -28%;
+        margin-top: 69%;
+    }
+}

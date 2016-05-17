@@ -1,0 +1,95 @@
+ul, li{
+	padding: 0;
+	margin: 0;
+}
+
+/* .cm_pivot */
+.cm_pivot { position:relative; margin:0 auto; padding:0 30px; width:874px; }
+
+/* .cm_head */
+.cm_head { position:fixed; top:0; left:0; width:100%; z-index:99999; }
+	.cm_head .logo { 	
+		position: absolute;
+		padding-top:15px;
+		z-index:10; 
+	}
+	.cm_head .social { position: absolute;right: 30px;margin-top:55px; z-index:8; }
+		.cm_head .social li { float:left; display:block; margin-right:10px; }
+		.cm_head .social li:last-child { margin-right:0; }
+
+
+/* gnb */
+.gnb { position:fixed; top:0; left:0; width:100%; z-index:99998; }
+.gnb a { display:inline-block; color:#ec2e38;
+	}
+	.gnb .mb_close { display:none; }
+	.gnb .base_bg { 
+		position:absolute; 
+		top:0px; left:0; 
+		width:100%;
+		height:93px;
+		background-color: #fff;
+		z-index:490; 
+		opacity:1;
+	}
+	.gnb .dimm_bg { 
+		position:fixed; top:0px; left:0; width:100%; height:100%; background-color:#000000; opacity:0.3; z-index:480; display:none; opacity:0;
+	}
+	.gnb .dp_wrap { position:relative; margin:0 auto;width:874px; z-index:900; margin-top:10px;}
+	.gnb .dp1_wrap { margin:0 auto; width:874px; }
+	.gnb .topBtns{
+		float: right;
+	}
+	.gnb .topBtns li{
+		float: left;
+		list-style: none;
+		margin-left:15px;
+	}
+	.gnb .topBtns li a{
+		text-decoration: none;
+	}
+	.gnb .dp1_list { float:right; margin-right: 75px}
+	.gnb .dp1_list li{
+		padding-left:35px;
+	}
+		.gnb .dp1_list:after { content:""; display:block; clear:both; }
+		.gnb .dp1_list .dp1 { float:left; display:block;font-size:14px; font-weight:700; }
+		.gnb .dp1_list .dp1 { float:left; display:block;font-size:14px; font-weight:700; }
+		.gnb .dp1_list .dp1 > a { padding:11px 20px; margin:14px -20px 10px -20px }
+		.gnb .dp1_list .dp1 > a:hover {text-decoration: none}
+
+	.gnb .dp2_wrap { position:absolute; top:0; left:0; margin-top:83px; width:100%; overflow:hidden; z-index:99998; }
+	.gnb .dp2_list { position:relative; visibility:hidden; padding:19px 0 27px 0; width:100%; }
+	
+	.gnb .dp2_list .bigImage{
+		float: left;
+		width:250px;
+		height:250px;
+		background-color: #eee;
+	}
+	.gnb .dp2_list .patterns{
+		float: right;
+	}
+	.gnb .dp2_list ul{
+		padding: 0;
+		margin:0;
+	}
+	.gnb .dp2_list li{
+		list-style: none;
+		float: left;
+		padding: 0;
+		margin: 7px;
+	}
+	.gnb .dp2_list .last{
+		margin-right:0!important;
+	}
+	.gnb .dp2_list .top{
+		margin-top:0!important;
+	}
+	.gnb .dp2_list .paddingTop{
+		padding-top:14px;
+	}
+	
+	
+	
+	
